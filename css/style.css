@@ -1,31 +1,70 @@
 .col-md-12 {
   background-color: purple;
-  padding:30px;
-  height:100px;
+  padding:10px;
+  height:200px;
+  border-color:black;
+  border-style:solid;
 
 }
 
 .col-md-3 {
   background-color: red;
-  height:1px;
+  height:100px;
+  border-color:black;
+  border-style:solid;
+  margin:0 auto;
+  display:inline-block;
+}
 
+.col-md-8 {
+  background-color: red;
+  height:100px;
+  border-color:black;
+  border-style:solid;
+  display:inline-block;
+}
+
+.col-md-4 {
+  background-color: red;
+  height:100px;
+  border-color:black;
+  border-style:solid;
+  display:inline-block;
+
+}
+
+.col-md-6 {
+  background-color: red;
+  height:100px;
+  border-color:black;
+  border-style:solid;
+  display:inline-block;
 }
 
 .col-md-9 {
   background-color: orange;
-  height:1px;
-
+  height:100px;
+  border-color:black;
+  border-style:solid;
+  display:inline-block;
 }
 
 .container-fluid {
   background-color: yellow;
-  padding: 30px;
+  padding: 10px;
+  border-color:black;
+  border-style:solid;
+
+
 
 }
 .row {
   background-color: red;
-  padding: 30px;
+  padding: 10px;
+
 }
+
+
 h3 {
   margin:0 auto;
   padding:30px;
@@ -36,8 +75,7 @@ h3 {
 h1 {
   margin:0 auto;
   background-color:yellow;
-  float:left;
-  clear:left;
+
 }
 p {
   background-color: green;
@@ -45,7 +83,7 @@ p {
 }
 
 li {
-  margin:10px;
+  margin:0 auto;
   background-color:blue;
   color:white;
 }
@@ -54,14 +92,10 @@ ul {
   margin:0 auto;
   background-color:blue;
   color:white;
-  float:left;
-  clear:left;
+  display:inline-block;
 }
 
-div {
-  margin:100px;
-  border-color:black;
-}
+
 
 @media screen and (max-width: 768px) {
     body {
